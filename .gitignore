@@ -1,0 +1,5 @@
+.classpath
+build.gradle
+target/
+test-uploaded
+
