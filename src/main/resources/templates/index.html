@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+
+<title>Tika as a Service</title>
+
+</head>
+
+<body>
+	<div>
+		<h1>Tika as a Service</h1>
+	</div>
+
+	<form method="POST" enctype="multipart/form-data"
+		action="documents/parse">
+		File to upload: <input type="file" name="file"/><br /> <br />
+		<input type="submit" value="Upload and Parse"/>
+	</form>
+
+	<div th:include="layout :: foot"></div>
+
+</body>
+</html>
+
+
+
+
